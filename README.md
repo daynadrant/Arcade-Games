@@ -26,7 +26,3 @@ target/          compiled classes from an earlier build
 ## Running
 
 Open the project in NetBeans (or another IDE with Swing support) and run `FrmWelcomeScreen`. Run it from the project root so the image files are found.
-
-## Status
-
-This repo doesn't contain a build file (no `pom.xml` or NetBeans project folder), and three source files are missing from `src/main/java`: `FrmGuessingGame.java`, `FibonacciGame.java` and `FrmExit.java`. Because of that, compiling the sources with `javac` fails. Compiled versions of these classes exist in `target/classes` from an earlier build. Restoring the missing sources and adding a `pom.xml` would make the project build from a fresh clone.
